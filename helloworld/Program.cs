@@ -10,8 +10,14 @@ namespace helloworld
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("HelloWorld");
-           Console.ReadLine();
+            // This is a comment
+            Console.WriteLine("HelloWorld");
+
+            // Variables lesson 
+            int x = 7;
+            int y = x + 3;
+            Console.WriteLine(y);
+            Console.ReadLine();
         }
     }
 }
